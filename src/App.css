@@ -1,5 +1,5 @@
 .section__padding {
-  padding: 4rem 6rem;
+  padding: 5rem 6rem;
 }
 
 .flex__center {
@@ -9,7 +9,7 @@
 }
 
 .app__bg {
-  background: url('./assets/bg.png');
+  background: url("./assets/bg.png");
   background-position: center;
   background-size: cover;
   background-repeat: repeat;
@@ -20,51 +20,23 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-
   min-height: 100vh;
-}
-
-.app__wrapper_info {
-  flex: 1;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  flex-direction: column;
-}
-
-.app__wrapper_img {
-  flex: 1;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  margin-left: 2rem;
-}
-
-.app__wrapper_img-reverse {
-  justify-content: flex-start;
-  margin-right: 2rem;
-}
-
-.app__wrapper_img img {
-  width: 80%;
 }
 
 .custom__button {
   background-color: var(--color-crimson);
-    color: var(--color-black);
-    font-family: var(--font-base);
-    font-weight: 700;
-    letter-spacing: 0.04em;
-    line-height: 28px;
-    font-size: 16px;
-    padding: 0.5rem 1.5rem;
-    border-radius: 1px;
-    border: none;
-    outline: none;
-    cursor: pointer;
+  color: var(--color-black);
+  font-family: var(--font-base);
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  line-height: 28px;
+  font-size: 16px;
+  padding: 0.5rem 1.5rem;
+  border-radius: 1px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin-left: 2rem;
 }
 
 .p__cormorant {
@@ -73,7 +45,7 @@
   font-weight: 700;
   letter-spacing: 0.04em;
   text-transform: capitalize;
-  font-feature-settings: 'tnum' on, 'lnum' on;
+  font-feature-settings: "tnum" on, "lnum" on;
   line-height: 29.9px;
   font-size: 23px;
 }
@@ -86,6 +58,7 @@
   text-transform: capitalize;
   line-height: 28px;
   font-size: 16px;
+  margin-left: 2rem;
 }
 
 .headtext__cormorant {
@@ -111,6 +84,7 @@
   .p__opensans {
     font-size: 30px;
     line-height: 50px;
+    margin-left: 2rem;
   }
 
   .headtext__cormorant {
@@ -120,58 +94,5 @@
 
   .spoon__img {
     width: 80px;
-  }
-}
-
-@media screen and (max-width: 1150px) {
-  .app__wrapper {
-    flex-direction: column;
-  }
-
-  .app__wrapper_img {
-    margin: 5rem 0 0 0;
-  }
-
-  .app__wrapper_img-reverse {
-    margin: 0 0 5rem 0;
-  }
-
-  .app__wrapper_img img {
-    width: 100%;
-  }
-}
-
-@media screen and (max-width: 850px) {
-  .section__padding {
-    padding: 4rem;
-  }
-}
-
-@media screen and (max-width: 650px) {
-  .section__padding {
-    padding: 4rem 2rem;
-  }
-  
-  .p__cormorant {
-    font-size: 21px;
-  }
-
-  .p__opensans {
-    font-size: 14px;
-  }
-}
-
-@media screen and (max-width: 450px) {
-  .p__opensans {
-    font-size: 12px;
-  }
-
-  .p__cormorant {
-    font-size: 19px;
-  }
-
-  .headtext__cormorant {
-    font-size: 45px;
-    line-height: 70px;
   }
 }

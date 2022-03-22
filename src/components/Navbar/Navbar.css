@@ -70,10 +70,10 @@
 }
 .app__navbar-menuicon {
   position: absolute;
-  top: 5px;
+  top: 30px;
   right: 0px;
   color: var(--color-golden);
-  width: 35px;
+  width: 45px;
 }
 .app__navbar-smallscreen_links {
   list-style: none;

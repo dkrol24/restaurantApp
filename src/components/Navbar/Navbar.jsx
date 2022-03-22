@@ -49,7 +49,7 @@ const Navbar = () => {
             <div className="app__navbar-menuicon">
               <MdOutlineRestaurantMenu
                 color="fff"
-                fontSize={27}
+                fontSize={34}
                 onClick={() => setToggleMenu(false)}
               />
             </div>
