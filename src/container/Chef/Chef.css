@@ -1,0 +1,45 @@
+.app__wrapper-image img {
+  height: 910px;
+  padding: 2rem;
+}
+.p__opensans {
+  color: grey !important;
+}
+.app__container {
+  background-color: var(--color-black);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+.app__quotte-chef img {
+  max-width: 50px;
+}
+.sign {
+  color: gray;
+}
+.sign p {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.app__chef-sign img {
+  height: 80px;
+}
+@media screen and (max-width: 1307px) {
+  .app__container {
+    flex-direction: column;
+    display: flex;
+  }
+  .app__wrapper-info {
+    text-align: center;
+  }
+  .app__quotte-chef {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .sign {
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+}
