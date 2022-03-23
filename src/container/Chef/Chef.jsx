@@ -11,7 +11,7 @@ const Chef = () => (
 
     <div className="app__wrapper-info">
       <SubHeading title="Chef's Word" />
-      <h1 className="app__header-h1">What We Believe In</h1>
+      <h1 className="headtext__cormorant">What We Believe In</h1>
       <div className="app__quotte-chef">
         <p className="p__opensans" style={{ margin: "2rem 0" }}>
           <img src={images.quote} alt="quote" />

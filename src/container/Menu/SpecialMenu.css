@@ -125,3 +125,9 @@
     align-items: center;
   }
 }
+@media screen and (max-width: 391px) {
+  .app__specialMenu_menu_img img {
+    max-width: 300px;
+    max-height: 300px;
+  }
+}

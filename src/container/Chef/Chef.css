@@ -43,3 +43,12 @@
     align-items: flex-start;
   }
 }
+.app__wrapper_info {
+  flex-direction: column;
+}
+@media screen and (max-width: 391px) {
+  .app__wrapper-image img {
+    max-width: 300px;
+    max-height: 300px;
+  }
+}

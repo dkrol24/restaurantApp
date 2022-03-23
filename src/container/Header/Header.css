@@ -56,3 +56,9 @@
     max-width: 450px;
   }
 }
+@media screen and (max-width: 391px) {
+  .app__wrapperpaper img {
+    max-width: 300px;
+    max-height: 300px;
+  }
+}

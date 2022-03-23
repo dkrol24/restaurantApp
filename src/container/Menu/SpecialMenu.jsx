@@ -4,7 +4,7 @@ import { SubHeading, MenuItem } from "../../components";
 import { images, data } from "../../constants";
 const SpecialMenu = () => (
   <div
-    className="app__specialMenu 
+    className=" app__specialMenu 
 flex__center "
     id="menu"
   >

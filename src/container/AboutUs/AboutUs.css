@@ -67,3 +67,9 @@
     width: 80%;
   }
 }
+@media screen and (max-width: 391px) {
+  .app__aboutus-content_knife img {
+    max-width: 300px;
+    max-height: 300px;
+  }
+}
