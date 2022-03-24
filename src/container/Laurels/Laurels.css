@@ -38,3 +38,8 @@
     flex-direction: column;
   }
 }
+@media screen and (min-width: 2000px) {
+  .app__wrapper_img img {
+    height: auto;
+  }
+}

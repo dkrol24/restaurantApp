@@ -19,7 +19,7 @@ flex__center "
         <div className="app__specialMenu_menu_items">
           {data.wines.map((wine, index) => (
             <MenuItem
-              title={wine.title + index}
+              title={index + 1 + "." + wine.title}
               price={wine.price}
               tags={wine.tags}
             />
@@ -36,7 +36,7 @@ flex__center "
         <div className="app__specialMenu_menu_items">
           {data.cocktails.map((cocktails, index) => (
             <MenuItem
-              title={cocktails.title + index}
+              title={index + 1 + "." + cocktails.title}
               price={cocktails.price}
               tags={cocktails.tags}
             />
