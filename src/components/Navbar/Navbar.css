@@ -22,11 +22,12 @@
   align-items: center;
 }
 .app__navbar-links li {
-  margin: 0 1rem;
+  margin: 0 1rem !important;
   cursor: pointer;
+  color: var(--color-white) !important;
 }
 .app__navbar-links li:hover {
-  color: var(--color-grey);
+  color: var(--color-grey) !important;
 }
 .app__navbar-login {
   display: flex;
@@ -34,7 +35,7 @@
   align-items: center;
 }
 .app__navbar-login a {
-  margin: 0 1rem;
+  margin: 0 1rem !important;
   text-decoration: none;
   transition: 0.5s ease;
 }
