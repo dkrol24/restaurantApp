@@ -40,6 +40,6 @@
 }
 @media screen and (min-width: 2000px) {
   .app__wrapper_img img {
-    height: auto;
+    height: 1150px;
   }
 }
