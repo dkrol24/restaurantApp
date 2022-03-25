@@ -108,6 +108,7 @@
 @media screen and (max-width: 650px) {
   .app__gallery {
     flex-direction: column;
+    text-align: center;
   }
   .app__gallery-content {
     min-width: 100%;
@@ -118,6 +119,8 @@
   .app__gallery-images_card {
     width: 200px;
     height: 320px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
   }
   .app__gallery-images_container {
     max-width: 320px;
